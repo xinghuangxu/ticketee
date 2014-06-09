@@ -20,7 +20,7 @@ class ProjectsController < ApplicationController
 			flash[:notice]="Project has been updated."
 			redirect_to @project
 		else
-			flash[:alert]="Project has not been updated"
+			flash[:alert]="Project has not been updated."
 			redirect_to @project
 		end
 	end
